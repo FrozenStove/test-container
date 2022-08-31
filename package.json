@@ -20,6 +20,7 @@
   "homepage": "https://github.com/FrozenStove/test-container#readme",
   "dependencies": {
     "express": "^4.18.1",
+    "node-fetch": "^2.6.7",
     "path": "^0.12.7"
   }
 }
