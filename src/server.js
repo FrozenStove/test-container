@@ -9,10 +9,6 @@ app.use(express.static(path.resolve(__dirname, './')));
 
 app.get('/overload', (req, res) => {
     const a = [];
-    // for ( let i = 0; i < 10000000000000000000; i++){
-    //     a.push(1)
-    // }
-
     while ( 1 == 1){
         a.push(1)
     }
